@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyApp.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace MyApp.Infrastructure.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)  // DbContext available microft.entityframworkcore pakg
     {
-        //public DbSet<EmployeeEntity> Employees { get; set; }
+        public DbSet<EmployeeEntity> Employees { get; set; }
     }
 }
