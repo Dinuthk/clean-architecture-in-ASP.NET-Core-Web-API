@@ -4,14 +4,89 @@
     "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+    "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
-        "projectName": "MyApp.Infrastructure",
-        "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj",
+        "projectName": "MyApp.Application",
+        "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\obj\\",
+        "outputPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\MyApp.Core.csproj": {
+                "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\MyApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\MyApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\MyApp.Core.csproj",
+        "projectName": "MyApp.Core",
+        "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\MyApp.Core.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +125,81 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectName": "MyApp.Infrastructure",
+        "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj": {
+                "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.13, )"
@@ -59,6 +209,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.13, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

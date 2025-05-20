@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6/FoPpUsoNI=",
+  "dgSpecHash": "vzuq3gvXohs=",
   "success": true,
   "projectFilePath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }

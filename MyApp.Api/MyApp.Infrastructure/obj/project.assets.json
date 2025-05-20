@@ -1494,6 +1494,33 @@
             "rid": "win"
           }
         }
+      },
+      "MyApp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "MyApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Application.dll": {}
+        }
+      },
+      "MyApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/MyApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyApp.Core.dll": {}
+        }
       }
     }
   },
@@ -3996,12 +4023,24 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MyApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Application/MyApp.Application.csproj",
+      "msbuildProject": "../MyApp.Application/MyApp.Application.csproj"
+    },
+    "MyApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../MyApp.Core/MyApp.Core.csproj",
+      "msbuildProject": "../MyApp.Core/MyApp.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.13",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.13"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.13",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.2",
+      "MyApp.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4035,7 +4074,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj": {
+              "projectPath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4063,6 +4106,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.13, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.2, )"
           }
         },
         "imports": [
