@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp.Core.Entities
+namespace MyApp.Infrastructure
 {
-    public class EmployeeEntity
+    internal class DependencyInjection
     {
     }
 }
