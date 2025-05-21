@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyApp.Core.Interfaces
 {
-    public interface GetEmployees
+    public interface IEmployeeRepository
     {
         Task<IEnumerable<EmployeeEntity>> GetEmployees();
         Task<EmployeeEntity> GetEmployeeByIdAsync(Guid id);

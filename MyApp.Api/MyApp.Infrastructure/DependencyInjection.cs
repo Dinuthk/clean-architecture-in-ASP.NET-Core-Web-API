@@ -1,11 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using MyApp.Core.Interfaces;
 using MyApp.Infrastructure.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MyApp.Infrastructure.Repositories;
+
 
 namespace MyApp.Infrastructure
 {
@@ -18,6 +16,7 @@ namespace MyApp.Infrastructure
                 options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=testCADb;Trusted_Connection=True;TrustServerCertificate=True;");
             }); 
 
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
             return services;
         }

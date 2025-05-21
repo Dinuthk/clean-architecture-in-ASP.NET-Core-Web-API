@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MyApp.Infrastructure.Repositories
 {
-    public class EmployeeRepository(AppDbContext dbContext) : GetEmployees
+    public class EmployeeRepository(AppDbContext dbContext) : IEmployeeRepository
     {
         public async Task<IEnumerable<EmployeeEntity>> GetEmployees()
         {

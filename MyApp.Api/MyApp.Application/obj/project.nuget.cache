@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vzuq3gvXohs=",
+  "dgSpecHash": "FYU1JwPbtFM=",
   "success": true,
   "projectFilePath": "D:\\Github_work_place\\clean-architecture-in-ASP.NET-Core-Web-API\\MyApp.Api\\MyApp.Application\\MyApp.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
   ],
   "logs": []
