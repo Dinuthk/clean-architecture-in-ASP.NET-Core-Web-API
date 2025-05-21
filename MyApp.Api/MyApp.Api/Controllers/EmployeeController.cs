@@ -31,5 +31,19 @@ namespace MyApp.Api.Controllers
             var result = await sender.Send(new GetAllEmployeeByIdQuery(employeeId));
             return Ok(result);
         }
+
+        [HttpPut("{employeeId}")]
+        public async Task<IActionResult> UpdateEmployeeAsync([FromRoute] Guid employeeId, [FromBody] EmployeeEntity employee)
+        {
+            var result = await sender.Send(new UpdateEmployeeCommand(employeeId, employee));
+            return Ok(result);
+        }
+
+        [HttpDelete("{employeeId}")]
+        public async Task<IActionResult> DeleteEmployeeAsync([FromRoute] Guid employeeId)
+        {
+            var result = await sender.Send(new DeleteEmployeeCommand(employeeId));
+            return Ok(result);
+        }
     }
 }
