@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "MyApp.Api.Controllers.EmployeeController",
+    "Method": "GetEmployeeByIdAsync",
+    "RelativePath": "{employeeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeController",
     "Method": "AddEmployeeAsync",
     "RelativePath": "api/Employee",
     "HttpMethod": "POST",
@@ -13,6 +29,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyApp.Api.Controllers.EmployeeController",
+    "Method": "GetEmployeesAsync",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]
