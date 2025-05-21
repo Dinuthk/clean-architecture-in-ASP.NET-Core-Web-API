@@ -14,7 +14,7 @@ namespace MyApp.Api.Controllers
         public async Task<IActionResult> AddEmployeeAsync([FromBody] EmployeeEntity employee)
         {
             var result = await sender.Send(new AddEmployeeCommand(employee));
-            return Ok();
+            return Ok(result);
         }
     }
 }

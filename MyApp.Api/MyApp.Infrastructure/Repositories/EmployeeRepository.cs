@@ -25,6 +25,7 @@ namespace MyApp.Infrastructure.Repositories
         public async Task<EmployeeEntity> AddEmployeesAsync(EmployeeEntity entity)
         {
             entity.id = Guid.NewGuid();
+            dbContext.Employees.Add(entity);
             await dbContext.SaveChangesAsync();
 
             return entity;
