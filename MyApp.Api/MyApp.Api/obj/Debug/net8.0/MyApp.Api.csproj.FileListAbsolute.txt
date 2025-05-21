@@ -147,3 +147,5 @@ D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.
 D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.Api\bin\Debug\net8.0\MyApp.Application.pdb
 D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.Api\bin\Debug\net8.0\MyApp.Infrastructure.pdb
 D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.Api\bin\Debug\net8.0\MyApp.Core.pdb
+D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.Api\bin\Debug\net8.0\MediatR.dll
+D:\Github_work_place\clean-architecture-in-ASP.NET-Core-Web-API\MyApp.Api\MyApp.Api\bin\Debug\net8.0\MediatR.Contracts.dll
